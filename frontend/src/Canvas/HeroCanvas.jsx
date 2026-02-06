@@ -13,6 +13,8 @@ function Box() {
     meshRef.current.rotation.x += 0.002
   })
 
+
+  
   return (
     <mesh ref={meshRef}>
       <boxGeometry args={[1.5, 1.5, 1.5]} />
